@@ -1,7 +1,5 @@
 import chromadb
 from sentence_transformers import SentenceTransformer
-from torch.nn.functional import embedding
-
 sentences = [
     'A stylish bedroom townhouse close to the river with a private balcony.',
     'A serene 4 bedroom cabin in the mountains with a cozy fireplace.',
